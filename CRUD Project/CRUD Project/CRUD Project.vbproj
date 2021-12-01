@@ -17,7 +17,11 @@
       <DependentUpon>frmReport.vb</DependentUpon>
     </Compile>
     <Compile Include="frmReport.vb">
-      <SubType>Form</SubType>
+      <SubType>Form</SubType>  <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EB495EA9-035F-4313-83E0-E0BC9359C747}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
     </Compile>
     <Compile Include="ModClasses.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
