@@ -81,6 +81,27 @@ CREATE TABLE [dbo].[Product](
  CONSTRAINT [PK_Product] PRIMARY KEY CLUSTERED 
 (
 	[ProductID] ASC
+CREATE TABLE [dbo].[Product](
+	[ProductID] [int] NOT NULL,
+	[ProductName] [nchar](200) NULL,
+	[Category] [nchar](150) NULL,
+	[Rate] [decimal](18, 2) NULL,
+	[OpeningStock] [int] NULL,
+CREATE TABLE [dbo].[Product](
+	[ProductID] [int] NOT NULL,
+	[ProductName] [nchar](200) NULL,
+	[Category] [nchar](150) NULL,
+	[Rate] [decimal](18, 2) NULL,
+	[OpeningStock] [int] NULL,
+CREATE TABLE [dbo].[Product](
+	[ProductID] [int] NOT NULL,
+	[ProductName] [nchar](200) NULL,
+	[Category] [nchar](150) NULL,
+	[Rate] [decimal](18, 2) NULL,
+	[OpeningStock] [int] NULL,
+ CONSTRAINT [PK_Product] PRIMARY KEY CLUSTERED 
+(
+	[ProductID] ASC
 )WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
