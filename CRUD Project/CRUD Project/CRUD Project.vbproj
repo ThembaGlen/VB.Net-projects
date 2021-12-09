@@ -11,7 +11,16 @@
     <StartupObject>CRUD_Project.My.MyApplication</StartupObject>
     <RootNamespace>CRUD_Project</RootNamespace>
     <AssemblyName>CRUD Project</AssemblyName>
-    <FileAlignment>512</FileAlignment>      <SubType>Form</SubType>
+    <FileAlignment>512</FileAlignment>      <SubType>Form</SubType> <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EB495EA9-035F-4313-83E0-E0BC9359C747}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CRUD_Project.My.MyApplication</StartupObject>
+    <RootNamespace>CRUD_Project</RootNamespace>
+    <AssemblyName>CRUD Project</AssemblyName>
     </Compile>
     <Compile Include="frmReport.Designer.vb">
       <DependentUpon>frmReport.vb</DependentUpon>
