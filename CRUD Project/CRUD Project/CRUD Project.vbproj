@@ -7,7 +7,16 @@
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{EB495EA9-035F-4313-83E0-E0BC9359C747}</ProjectGuid>
-    <OutputType>WinExe</OutputType> <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <OutputType>WinExe</OutputType> <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration> <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EB495EA9-035F-4313-83E0-E0BC9359C747}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CRUD_Project.My.MyApplication</StartupObject>
+    <RootNamespace>CRUD_Project</RootNamespace>
+    <AssemblyName>CRUD Project</AssemblyName>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>
     </ProductVersion>
