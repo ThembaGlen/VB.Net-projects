@@ -14,6 +14,18 @@ GO
 USE [CRUD_DB]﻿USE [master]
 GO
 USE [CRUD_DB]﻿USE [master]
+USE [CRUD_DB]
+GO
+/****** Object:  Table [dbo].[Product]    Scri﻿USE [master]
+GO
+USE [CRUD_DB]﻿USE [master]
+GO
+USE [CRUD_DB]﻿USE [master]
+GO
+USE [CRUD_DB]
+GO
+/****** Object:  Table [dbo].[Product]    Script Date: 05/07/2017 17:52:53 ******/
+USE [CRUD_DB]﻿USE [master]
 GO
 USE [CRUD_DB]
 GO
